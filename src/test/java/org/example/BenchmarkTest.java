@@ -7,8 +7,9 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 @BenchmarkMode(Mode.AverageTime)
-@Measurement(iterations = 20, timeUnit = TimeUnit.MILLISECONDS,  time = 10)
-@Warmup(iterations = 10, timeUnit = TimeUnit.MILLISECONDS, time = 10)
+@Measurement(iterations = 20, timeUnit = TimeUnit.MILLISECONDS)
+@Warmup(iterations = 10, timeUnit = TimeUnit.MILLISECONDS)
+@Fork(value = 1)
 @OutputTimeUnit(TimeUnit.MILLISECONDS)
 public class BenchmarkTest {
 
