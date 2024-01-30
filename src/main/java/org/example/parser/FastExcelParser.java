@@ -1,9 +1,11 @@
-package org.example;
+package org.example.parser;
 
 import org.dhatim.fastexcel.reader.Cell;
 import org.dhatim.fastexcel.reader.ReadableWorkbook;
 import org.dhatim.fastexcel.reader.Row;
 import org.dhatim.fastexcel.reader.Sheet;
+import org.example.Product;
+import org.example.ProductSpreadsheetColumn;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

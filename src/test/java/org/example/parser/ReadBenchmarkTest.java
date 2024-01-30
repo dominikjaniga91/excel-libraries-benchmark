@@ -1,5 +1,6 @@
-package org.example;
+package org.example.parser;
 
+import org.example.Product;
 import org.openjdk.jmh.annotations.*;
 
 import java.io.IOException;
@@ -11,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 @Warmup(iterations = 10, timeUnit = TimeUnit.MILLISECONDS)
 @Fork(value = 1)
 @OutputTimeUnit(TimeUnit.MILLISECONDS)
-public class BenchmarkTest {
+public class ReadBenchmarkTest {
 
     public static void main(String[] args) throws IOException {
         org.openjdk.jmh.Main.main(args);

@@ -1,4 +1,4 @@
-package org.example;
+package org.example.parser;
 
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;

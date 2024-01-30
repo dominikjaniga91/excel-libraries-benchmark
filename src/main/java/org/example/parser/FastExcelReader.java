@@ -1,4 +1,4 @@
-package org.example;
+package org.example.parser;
 
 import org.dhatim.fastexcel.reader.ReadableWorkbook;
 import org.slf4j.Logger;

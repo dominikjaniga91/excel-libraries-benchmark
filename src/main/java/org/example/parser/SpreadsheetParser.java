@@ -1,4 +1,6 @@
-package org.example;
+package org.example.parser;
+
+import org.example.Product;
 
 import java.util.List;
 

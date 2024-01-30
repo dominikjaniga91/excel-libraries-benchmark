@@ -1,6 +1,8 @@
-package org.example;
+package org.example.parser;
 
 import org.apache.poi.ss.usermodel.*;
+import org.example.Product;
+import org.example.ProductSpreadsheetColumn;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
